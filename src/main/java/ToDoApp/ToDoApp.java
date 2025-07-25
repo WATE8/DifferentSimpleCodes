@@ -7,7 +7,7 @@ public class ToDoApp extends JFrame {
     DefaultListModel<String> listModel = new DefaultListModel<>();
     JList<String> taskList = new JList<>(listModel);
     ArrayList<Boolean> completed = new ArrayList<>();
-    
+
     public ToDoApp() {
         setTitle("To-Do App");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
